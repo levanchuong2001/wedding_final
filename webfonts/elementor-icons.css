@@ -207,13 +207,6 @@
   content: "\e82b";
 }
 
-.eicon-facebook-comments:before {
-  content: "\e82c";
-}
-
-.eicon-facebook-like-box:before {
-  content: "\e82d";
-}
 
 .eicon-form-horizontal:before {
   content: "\e82e";
@@ -364,7 +357,7 @@
 }
 
 .eicon-share:before {
-  content: "\e853";
+  content: "\00E9";
 }
 
 .eicon-sidebar:before {
@@ -532,15 +525,18 @@
 }
 
 .eicon-chevron-right:before {
-  content: "\e87d";
+  font-family: bootstrap-icons;
+  content: "\F285"
 }
 
 .eicon-chevron-left:before {
-  content: "\e87e";
+  font-family: bootstrap-icons;
+  content: "\F284";
 }
 
 .eicon-close:before {
-  content: "\e87f";
+  font-family: bootstrap-icons;
+  content: "\F659"
 }
 
 .eicon-file-download:before {
@@ -1240,7 +1236,8 @@
 }
 
 .eicon-zoom-in-bold:before {
-  content: "\e92e";
+  font-family: bootstrap-icons;
+  content: "\F62C";
 }
 
 .eicon-sort-amount-desc:before {
@@ -1412,23 +1409,28 @@
 }
 
 .eicon-facebook:before {
-  content: "\e959";
+  font-family: bootstrap-icons;
+  content: "\F344";
 }
 
 .eicon-twitter:before {
-  content: "\e95a";
+  font-family: bootstrap-icons;
+  content: "\F8DB";
 }
 
 .eicon-pinterest:before {
-  content: "\e95b";
+  font-family: bootstrap-icons;
+  content: "\F663"
 }
 
 .eicon-frame-expand:before {
-  content: "\e95c";
+  font-family: bootstrap-icons;
+  content: "\F14D"
 }
 
 .eicon-frame-minimize:before {
-  content: "\e95d";
+  font-family: bootstrap-icons;
+  content: "\F3DE";
 }
 
 .eicon-archive:before {
@@ -1484,11 +1486,13 @@
 }
 
 .eicon-download-bold:before {
-  content: "\e96b";
+  font-family: bootstrap-icons;
+  content: "\F30A";
 }
 
 .eicon-share-arrow:before {
-  content: "\e96c";
+  font-family: bootstrap-icons;
+  content: "\F52E";
 }
 
 .eicon-global-settings:before {
