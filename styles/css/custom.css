@@ -17,8 +17,10 @@ body {
   grid-auto-columns: max-content;
   column-gap: var(--col-gap);
   list-style: none;
-  width: min(60rem, 98%);
-   margin-inline: auto; 
+  width: min(60rem, 95%);
+  margin-inline: auto;
+  padding-left: 1rem;
+  margin-top: 5rem;
 }
 
 /* line */
