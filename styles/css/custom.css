@@ -17,8 +17,8 @@ body {
   grid-auto-columns: max-content;
   column-gap: var(--col-gap);
   list-style: none;
-  width: min(60rem, 90%);
-  margin-inline: auto;
+  width: min(60rem, 98%);
+   margin-inline: auto; 
 }
 
 /* line */
@@ -58,7 +58,6 @@ body {
 
   color: white;
   font-size: 1.25rem;
-  font-weight: 700;
 
   display: grid;
   place-content: center;
@@ -107,11 +106,14 @@ body {
   overflow: hidden;
   padding-block-start: 1.5rem;
   padding-block-end: 1rem;
-  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 #timeline ul li .descr {
   padding-block-end: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* shadows */
