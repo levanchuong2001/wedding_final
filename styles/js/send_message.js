@@ -5,7 +5,7 @@ sendMessage.onsubmit = function (e) {
   let inputEmail = document.getElementById("input_email");
   let inputAddress = document.getElementById("input_address");
   let inputMessage = document.getElementById("input_message");
-  fetch("http://14.225.211.243:3000", {
+  fetch("http://localhost:3000", {
     method: "POST",
     headers: {
       Accept: "application/json, text/plain, */*",
