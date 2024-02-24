@@ -33,3 +33,8 @@ sendMessage.onsubmit = function (e) {
       alert("Gửi lời chúc thất bại, vui lòng thử lại!");
     });
 };
+fetch("http://localhost:3000/count", {
+  method: "GET",
+}).then((response) => {
+  console.log(response);
+});
